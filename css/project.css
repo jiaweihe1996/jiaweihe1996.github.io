@@ -1,8 +1,6 @@
 
 body {
     text-rendering:optimizeLegibility; 
-    font-size:1em; line-height:22px; color:#333; background:#F8F8F8; 
-	font-family: 'gandhi_sansregular';
 }
 
 .title h1{
