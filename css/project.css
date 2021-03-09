@@ -1,13 +1,9 @@
 
-body {
-    text-rendering:optimizeLegibility; 
-}
-
-.title h1{
+div.title h1{
 	text-align: center;
 	font-family: "Microsoft YaHei";
 }
-.subtitle1 h1{
+div.subtitle1 h1{
     text-align: center;
     font-family: "Microsoft YaHei";
     font-size:1.5em;
