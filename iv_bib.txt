@@ -1,0 +1,8 @@
+@inproceedings{nan2019scene,
+  title={Scene-Guided Region Proposal Re-ranking Method for On-road Vehicle Candidate Generation},
+  author={Nan, Zhixiong and Feng, Yang and He, Jiawei and Wei, Ping and Xu, Linhai and Sun, Hongbin and Zheng, Nanning},
+  booktitle={2019 IEEE Intelligent Vehicles Symposium (IV)},
+  pages={2377--2382},
+  year={2019},
+  organization={IEEE}
+}
