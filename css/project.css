@@ -1,5 +1,4 @@
 
-
 body {
     text-rendering:optimizeLegibility; 
     font-size:1em; line-height:22px; color:#333; background:#F8F8F8; 
@@ -13,32 +12,6 @@ body {
     font-family: "Microsoft YaHei", 'gandhi_sansregular';
     font-size:1.5em;
 }
-
-div.content {
-    width:850px; margin:5px auto; padding:3em 1em 1em 1em;
-}
-
-h1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    line-height:150%;
-    text-align: center;
-    font-size:26pt;
-}
-
-.banner{
-  text-align:center;
-  font-size:12pt;
-  line-height:100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-div.sec {
-    padding: 0.0em 0;
-}
-
 div.authors{
     text-align: center;
     width: 90%;
@@ -91,18 +64,6 @@ div.author{
     display: inline;
     padding: 0 0em;
 }
-
-div.links {
-    padding-top: 1em;
-}
-
-div.affiliation{
-}
-
-.bibtex {
-    white-space: pre;
-}
-
 
 div.link{
     display: inline;
