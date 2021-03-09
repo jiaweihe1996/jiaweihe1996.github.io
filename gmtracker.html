@@ -91,6 +91,14 @@
         <div class="authors" style="width:95%">
 		<A>Jiawei He, Zehao Huang, Naiyan Wang, Zhaoxiang Zhang</A>
         </div>
+	<div class="abstract_sec">
+		<h2>Abstract</h2>
+		<div class='desp'>
+			<p style="text-align:justify">
+			Data association across frames is at the core of Multiple Object Tracking (MOT) task. This problem is usually solved by a traditional graph-based optimization or directly learned via deep learning. Despite their popularity, we find some points worth studying in current paradigm: 1) Existing methods mostly ignore the context information among tracklets and intra-frame detections, making the tracker hard to survive in challenging cases like severe occlusion. 2) The end-to-end association methods solely rely on the data fitting power of deep neural networks while hardly utilize the advantage of optimization-based assignment methods. 3) The graph-based optimization methods mostly utilize the independent neural network to extract features, which brings the gap between training and inference. Therefore, we propose a novel learnable graph matching method in this paper to address these issues. Briefly speaking, we model the relationships between tracklets and the intra-frame detections as a general graph. Then the association problem turns into a general graph matching between tracklet graph and detection graph. Furthermore, to make the optimization end-to-end differentiable, we relax the original graph matching into continuous quadratic programming and then incorporate it into a deep graph network with the help of the implicit function theorem. Lastly, our method GMTracker, achieves state-of-the-art performance on several standard MOT datasets.
+			</p>
+		</div>
+        </div> 
     <!-- /.container -->
 
     <!-- jQuery -->
