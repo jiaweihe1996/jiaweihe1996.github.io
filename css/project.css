@@ -4,10 +4,10 @@ body {
 }
 
 .title h1{
-	font-family: "Microsoft YaHei", 'gandhi_sansregular';
+	font-family: "Microsoft YaHei";
 }
 .subtitle1 h1{
-    font-family: "Microsoft YaHei", 'gandhi_sansregular';
+    font-family: "Microsoft YaHei";
     font-size:1.5em;
 }
 div.authors{
