@@ -2,5 +2,6 @@
   title={Learnable Graph Matching: Incorporating Graph Partitioning with Deep Feature Learning for Multiple Object Tracking},
   author={He, Jiawei and Huang, Zehao and Wang, Naiyan and Zhang, Zhaoxiang},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5299--5309},
   year={2021}
 }
