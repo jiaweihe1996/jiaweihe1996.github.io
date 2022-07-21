@@ -1,0 +1,7 @@
+@inproceedings{li2022dcd,
+  title={Densely Constrained Depth Estimator for Monocular 3D Object Detection},
+  author={Li, Yingyan and Chen, Yuntao and He, Jiawei and Zhang, Zhaoxiang},
+  booktitle={European Conference on Computer Vision},
+  year={2022},
+  organization={Springer}
+}
