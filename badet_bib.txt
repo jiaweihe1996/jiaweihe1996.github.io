@@ -1,0 +1,6 @@
+@inproceedings{he2022badet,
+  title={3D Video Object Detection with Learnable Object-Centric Global Optimization},
+  author={He, Jiawei and Chen, Yuntao and Wang, Naiyan and Zhang, Zhaoxiang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2023}
+}
