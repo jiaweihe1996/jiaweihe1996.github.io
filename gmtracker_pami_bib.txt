@@ -1,0 +1,6 @@
+@article{he2023learnable,
+  title={Learnable Graph Matching: A Practical Paradigm for Data Association},
+  author={He, Jiawei and Huang, Zehao and Wang, Naiyan and Zhang, Zhaoxiang},
+  journal={arXiv preprint arXiv:2303.15414},
+  year={2023}
+}
