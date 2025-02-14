@@ -92,7 +92,7 @@ footer {
     }
 }
 .highlighted-paragraph {
-  color: #1e3a8a; /* Replace with your custom dark blue color (hex value) */
-  background-color: rgba(37, 99, 235, 0.2); /* Replace with your custom blue color with 20% opacity (rgba) */
+  color: #1e3a8a !important; /* Replace with your custom dark blue color (hex value) */
+  background-color: rgba(37, 99, 235, 0.2) !important; /* Replace with your custom blue color with 20% opacity (rgba) */
   padding: 12px; /* Equivalent to p-3 (padding of 12px) */
 }
