@@ -3,16 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving">
-  <meta name="keywords" content="Ba^2-Det">
+        content="DexVLG: Dexterous Vision-Language-Grasp Model at Scale">
+  <meta name="keywords" content="DexVLG, Vision-Language-Grasp">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving</title>
+  <title>DexVLG: Dexterous Vision-Language-Grasp Model at Scale</title>
 
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B4PM93ETNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-B4PM93ETNN');
+  </script>
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
@@ -50,30 +58,50 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving</h1>
-          <h2 class="title is-3">CVPR 2024</h2>
+          <h1 class="title is-1 publication-title">DexVLG: Dexterous Vision-Language-Grasp Model at Scale</h1>
+          <h2 class="title is-3">ICCV 2025</h2>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://robertwyq.github.io/">Yuqi Wang</a>*<sup>1</sup>,</span>
+              <a href="https://jiaweihe.com/">Jiawei He</a>*<sup>1,2</sup>,</span>
             <span class="author-block">
-              <a href="https://jiaweihe.com/">Jiawei He</a>*<sup>1</sup>,</span>
+              <a href="https://danshi-li.github.io/personal-website/">Danshi Li</a>*<sup>2</sup>,</span>
             <span class="author-block">
-              <a href="https://lue.fan/">Lue Fan</a>*<sup>1</sup>,
+              <a href="https://xinqiangyu.github.io/yuxinqiang.github.io/">Xinqiang Yu</a>*<sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://github.com/ZJULiHongxin">Hongxin Li</a>*<sup>1</sup>,
+              <a href="https://qizekun.github.io/">Zekun Qi</a><sup>2,3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=iLOoUqIAAAAJ">Yuntao Chen</a>&dagger;<sup>2</sup>,
+              <a href="https://qizekun.github.io/">Wenyao Zhang</a><sup>2,6,7</sup>,
             </span>
             <span class="author-block">
-              <a href="https://zhaoxiangzhang.net/">Zhaoxiang Zhang</a>&dagger;<sup>1,2</sup>,
+              <a href="https://jychen18.github.io/">Jiayi Chen</a><sup>2,4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://zhaoxiangzhang.net/">Zhaoxiang Zhang</a>&dagger;<sup>5</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en">Zhizheng Zhang</a>&dagger;<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://ericyi.github.io/">Li Yi</a>&dagger;<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://hughw19.github.io/">He Wang</a>&dagger;<sup>1,2,4</sup>,
             </span>
           </div>
-
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>CASIA & UCAS,</span>
-            <span class="author-block"><sup>2</sup>CAIR, HKISI, CAS</span>
+            <span class="author-block">* equal contribution, &dagger;corresponding authors</span>
+          
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>BAAI,</span>
+            <span class="author-block"><sup>2</sup>Galbot</span>
+            <span class="author-block"><sup>3</sup>THU,</span>
+            <span class="author-block"><sup>4</sup>PKU,</span>
+            <span class="author-block"><sup>5</sup>CASIA,</span>
+            <span class="author-block"><sup>6</sup>SJTU,</span>
+            <span class="author-block"><sup>7</sup>EIT</span>
           </div>
 
           <div class="column has-text-centered">
@@ -109,7 +137,7 @@
               </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/BraveGroup/Drive-WM"
+                <a href="https://github.com/jiaweihe1996/DexVLG"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -142,10 +170,9 @@
     <div class="columns is-centered has-text-centered">
     <div class="column is-full-width is-centered">
         <div class="content has-text-justified">
-            <img src="./static/images/WX20231125-133933@2x.png" width="100%">
+            <img src="./static/image/dexvlg.png" width="100%">
           <p>
-            <b>Multiview visual forecasting and planning by world model.</b>
-            At time step \( T \), the world model imagines the multiple futures at \(T+K\), and finds it is safe to keep going straight at \(T\). Then the model realizes that the ego car will be too close to the front car according to the imagination of time step \(T + 2K\), so it decides to change to the left lane for a safe overtaking.
+           Our main contributions are twofold: First, we constructed a large-scale synthetic dexterous grasping dataset called DexGraspNet3.0, which contains grasp poses with captions describing the grasped part and style. Second, we trained a language-instructed grasp pose prediction model using the DexGraspNet3.0 dataset, called DexVLG. This model can generate language-aligned and generalizable grasping poses for different objects in real-world experiments.
           </p>
     </div>
   </div>
@@ -170,12 +197,9 @@
           </p> -->
         <!-- </div> -->
           <p>
-            In autonomous driving, predicting future events in advance and evaluating the foreseeable risks empowers autonomous vehicles to better plan their actions, enhancing safety and efficiency on the road.
-            To this end, we propose <b>Drive-WM</b>, the first driving world model compatible with existing end-to-end planning models.
-            Through a joint spatial-temporal modeling facilitated by view factorization, our model is the first to generate high-fidelity multiview videos in driving scenes.
-            Building on its powerful generation ability, we showcase the potential of applying the world model for safe driving planning for the first time. 
-            Particularly, our <b>Drive-WM</b> enables driving into multiple futures based on distinct driving maneuvers, and determines the optimal trajectory according to the image-based rewards.
-            Evaluation on real-world driving datasets verifies that our method could generate high-quality, consistent, and controllable multiview videos, opening up possibilities for real-world simulations and safe planning.
+          As large models gain traction, vision-language-action (VLA) systems are enabling robots to tackle increasingly complex tasks.
+          However, limited by the difficulty of data collection, progress has mainly focused on controlling simple gripper end-effectors. There is little research on functional grasping with large models for human-like dexterous hands.
+          In this paper, we introduce <b>DexVLG</b>, a large <b>V</b>ision-<b>L</b>anguage-<b>G</b>rasp model for <b>Dexterous</b> grasp pose prediction aligned with language instructions using single-view RGBD input. To accomplish this, we generate a dataset of 170 million dexterous grasp poses mapped to semantic parts across 174,000 objects in simulation, paired with detailed part-level captions. This large-scale dataset, named <b>DexGraspNet 3.0</b>, is used to train a VLM and flow-matching-based pose head capable of producing instruction-aligned grasp poses for tabletop objects. To assess DexVLG's performance, we create benchmarks in physics-based simulations and conduct real-world experiments. Extensive testing demonstrates DexVLG's strong zero-shot generalization capabilities—achieving over 76% zero-shot execution success rate and state-of-the-art part-grasp accuracy in simulation—and successful part-aligned grasps on physical objects in real-world scenarios.
           </p>
         </div>
       </div>
@@ -202,281 +226,30 @@
     <!-- Methodology. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Method Overview</h2>
+        <h2 class="title is-3">Real-world Demos</h2>
           <div class="content has-text-justified">
-            <img src="./static/images/wm-pipeline.png" width="100%">
-          <p>
-            <b>Overview of the proposed framework.</b>
-            <b>(a)</b> illustrates the training and inference pipeline of the proposed method.
-            <b>(b)</b> visualizes the unified conditions leveraged to control the generation of multi-view video.
-            <b>(c)</b> represents the probabilistic graph of factorized multiview generation. It takes the 3-view output from (a) as input to generate other views, enhancing the multi-view consistency.
+            <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/video/DexVLG_real_experiment_video.mp4"
+                    type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
     <!--/ Methodology. -->
   </div>
 </section>
-<section class="section">
-<!-- <section class="hero is-light is-small"> -->
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h2 class="title is-3">Generation of Diverse Multiview Videos</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/0519.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/0093.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/0102.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/0636.mp4"
-                    type="video/mp4">
-          </video>
-          </div>
-      </div>
-          <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/0914.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/0039.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/0522.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/0559.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        
-      </div>
+<div>
+  <div class="container is-max-widescreen content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{dexvlg25,
+      title={DexVLG: Dexterous Vision-Language-Grasp Model at Scale},
+      author={He, Jiawei and Li, Danshi and Yu, Xinqiang and Qi, Zekun and Zhang, Wenyao and Chen, Jiayi and Zhang, Zhaoxiang and Zhang, Zhizheng and Yi, Li and Wang, He},
+      journal={arXiv preprint arXiv:2506.03135},
+      year={2025}
+    }</code></pre>
     </div>
   </div>
-</section>
-<section class="section">
-  <!-- Paper video. -->
- <div class="container is-max-desktop has-text-centered"> 
-<h2 class="title is-3">Generation of Multiple Plausible Futures</h2>
-<div class="columns is-centered">
-  <div class="column">
-  <div class="content">
-    
-   <div class="content has-text-centered">
-    <h2 class="title is-4">Scene 1 (Turn left)</h2>
-     <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-       <source src="./static/videos/demo1_left_stitched.mp4" type="video/mp4">
-     </video>
- </div>
-  </div>
-  </div>
-  
-  <div class="column">
-    
-   <div class="content has-text-centered">
-    <h2 class="title is-4">Scene 1 (Turn right)</h2>
-     <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-       <source src="./static/videos/demo1_right_stitched.mp4" type="video/mp4">
-     </video>
-     </div>
-  </div>
 </div>
-<div class="columns is-centered">
-  <div class="column">
-  <div class="content">
-    <h2 class="title is-4">Scene 2 (Turn left)</h2>
-   <div class="content has-text-justified">
-     <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-       <source src="./static/videos/demo2_left_stitched.mp4" type="video/mp4">
-     </video>
- </div>
-  </div>
-  </div>
-  
-  <div class="column">
-    <h2 class="title is-4">Scene 2 (Go straight)</h2>
-   <div class="content has-text-centered">
-     <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-       <source src="./static/videos/demo2_straight_stitched.mp4" type="video/mp4">
-     </video>
-     </div>
-  </div>
-</div>
-<div class="columns is-centered">
-  <div class="column">
-  <div class="content">
-    <h2 class="title is-4">Scene 3 (Turn left)</h2>
-   <div class="content has-text-justified">
-     <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-       <source src="./static/videos/demo3_left_stitched.mp4" type="video/mp4">
-     </video>
- </div>
-  </div>
-  </div>
-  
-  <div class="column">
-    <h2 class="title is-4">Scene 3 (Go straight)</h2>
-   <div class="content has-text-centered">
-     <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-       <source src="./static/videos/demo3_straight_stitched.mp4" type="video/mp4">
-     </video>
-     </div>
-  </div>
-</div>
-</div>
-</section>
-
-<section class="section">
-  <!-- Paper video. -->
- <div class="container is-max-desktop has-text-centered"> 
-  <h2 class="title is-3">Visual Element Control</h2>
- <h2 class="title is-4">Light Changes</h2>
-    <div class="columns is-centered">
-         <div class="column">
-         <div class="content">
-          <div class="content has-text-justified">
-            <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-              <source src="./static/videos/1071_day.mp4" type="video/mp4">
-            </video>
-        </div>
-         </div>
-         </div>
-         
-         <div class="column">
-          <div class="content has-text-centered">
-            <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-              <source src="./static/videos/1071_night.mp4" type="video/mp4">
-            </video>
-            </div>
-         </div>
-   </div>
-   <h2 class="title is-4">Weather Changes</h2>
-    <div class="columns is-centered">
-         <div class="column">
-         <div class="content">
-          <div class="content has-text-justified">
-            <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-              <source src="./static/videos/0093_sunny.mp4" type="video/mp4">
-            </video>
-        </div>
-         </div>
-         </div>
-         
-         <div class="column">
-          <div class="content has-text-centered">
-            <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-              <source src="./static/videos/0093_rainy.mp4" type="video/mp4">
-            </video>
-            </div>
-         </div>
-   </div>
-   <h2 class="title is-4">Control Foreground Object Layouts</h2>
-    <div class="columns is-centered">
-         <div class="column">
-         <div class="content">
-          <div class="content has-text-justified">
-            <img src="./static/images/move_obj.png" width="100%">
-        </div>
-         </div>
-         </div>
-   </div>
-   <h2 class="title is-4">Action Condition</h2>
-   <div class="columns is-centered">
-        <div class="column">
-        <div class="content">
-         <div class="content has-text-justified">
-           <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-             <source src="./static/videos/stop.mp4" type="video/mp4">
-           </video>
-       </div>
-        </div>
-        </div>
-        
-        <div class="column">
-         <div class="content has-text-centered">
-           <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-             <source src="./static/videos/turn_around.mp4" type="video/mp4">
-           </video>
-           </div>
-        </div>
-  </div>
-
-   </div>
-</section>
-<section class="section">
-  <!-- Paper video. -->
- <div class="container is-max-desktop has-text-centered"> 
-<h2 class="title is-3">Other Datasets</h2>
-<div class="columns is-centered">
-     <div class="column">
-     <div class="content">
-      <div class="content has-text-centered">
-        <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-          <source src="./static/videos/waymo.mp4" type="video/mp4">
-        </video>
-        </div>
-     </div>
-     </div>
-     
-     <div class="column">
-      <div class="content has-text-centered">
-        <video poster="" id="wod" autoplay controls muted loop playsinline width="100%">
-          <source src="./static/videos/waymo_video.mp4" type="video/mp4">
-        </video>
-        </div>
-     </div>
-</div>
-</div>
-</section>
-<section class="section">
-  <!-- Paper video. -->
- <div class="container is-max-desktop has-text-centered"> 
- <h2 class="title is-3">World Model for End-to-End Planning</h2>
- <div class="columns is-centered has-text-centered">
-  <div class="column is-four-fifths is-centered">
-      <div class="content has-text-justified">
-          <img src="./static/images/planning_tree.png" width="100%">
-        <p>
-          <b>End-to-end planning pipeline with our world model.</b> We display the components of our planning pipeline at the top and illustrate the decision-making process in the planning tree using image-based rewards at the bottom.
-        </p>
-  </div>
-</div>
-</div>
- <h2 class="title is-4">GPT-4V as Reward Function for Non-vectorized Observations</h2>
-  <div class="columns is-centered">
-       <div class="column">
-       <div class="content">
-        <div class="content has-text-justified">
-          <img src="./static/images/gpt4v.png" width="100%">
-      </div>
-       </div>
-       </div>
- </div>
-</div>
-</section>
 <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
